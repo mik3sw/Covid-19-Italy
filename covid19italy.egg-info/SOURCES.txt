@@ -1,0 +1,9 @@
+README.md
+setup.py
+covid19italy/__init__.py
+covid19italy/covid19.py
+covid19italy.egg-info/PKG-INFO
+covid19italy.egg-info/SOURCES.txt
+covid19italy.egg-info/dependency_links.txt
+covid19italy.egg-info/requires.txt
+covid19italy.egg-info/top_level.txt
