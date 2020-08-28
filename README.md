@@ -52,7 +52,7 @@ c.getFullReport()
 
 **Source**
 ```
-from covid import Covid
+from covid19 import Covid
 c = Covid()
 
 print(c.getSmallReport())
