@@ -9,11 +9,12 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='covid19italy',
     packages=find_packages(include=['covid19italy']),
-    version='1.1.0',
+    version='1.1.1',
     description='Covid-19 italy report',
     author='Mik3sw',
     license='MIT',
     install_requires=['requests'],
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
+    url = 'https://github.com/mik3sw/Covid-19-Italy'
 )
