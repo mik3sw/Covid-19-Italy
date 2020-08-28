@@ -1,7 +1,8 @@
-import requests, json
+import requests
 
 class Covid:
     def __init__(self):
+        self.source_url='https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-andamento-nazionale.json' 
         y, length = self.get_covid()
         x = y[length]
         self.nuovi_deceduti = self.get_nuovi_deceduti(y, length)
@@ -24,8 +25,7 @@ class Covid:
     
 
     def get_covid(self):
-        source_url='https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-andamento-nazionale.json'
-        response = requests.get(source_url)
+        response = requests.get(self.source_url)
         x = response.json()
         length = -1
         for item in x:
