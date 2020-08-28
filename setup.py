@@ -13,5 +13,7 @@ setup(
     description='Covid-19 italy report',
     author='Mik3sw',
     license='MIT',
-    install_requires=['requests']
+    install_requires=['requests'],
+    long_description=long_description,
+    long_description_content_type='text/markdown'
 )
