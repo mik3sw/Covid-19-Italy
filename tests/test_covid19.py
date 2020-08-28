@@ -1,4 +1,4 @@
-from covid19italy import covid19
+from covid19it import covid19
 
 def test1():
     # Small report about latest covid19 data

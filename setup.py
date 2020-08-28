@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='covid19italy',
     packages=find_packages(include=['covid19italy']),
-    version='1.1.1',
+    version='1.0.0',
     description='Covid-19 italy report',
     author='Mik3sw',
     license='MIT',
