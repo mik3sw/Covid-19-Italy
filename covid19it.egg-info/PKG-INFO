@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: covid19it
-Version: 1.0.0
+Version: 1.1.0
 Summary: Covid-19 italy report
 Home-page: https://github.com/mik3sw/Covid-19-Italy
 Author: Mik3sw
@@ -27,9 +27,9 @@ Description: # Covid-19-Italy
         
         ### Import the Class:
         ```
-        from covid19 import Covid
+        from covid19it import covid19
         
-        c = Covid()
+        c = covid19.Covid()
         ```
         ### Here the list of class arguments:
         ```
@@ -65,8 +65,8 @@ Description: # Covid-19-Italy
         
         **Source**
         ```
-        from covid19 import Covid
-        c = Covid()
+        from covid19it import covid19
+        c = covid19.Covid()
         
         print(c.getSmallReport())
         
