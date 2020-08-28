@@ -1,5 +1,7 @@
 # Covid-19-Italy
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a68996467f58458987d375750adf3ee0)](https://www.codacy.com/manual/mik3sw/Covid-19-Italy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mik3sw/Covid-19-Italy&amp;utm_campaign=Badge_Grade)
+
 A python Class that provide you all the latest informations about COVID-19 from "protezione civile" (https://github.com/pcm-dpc/COVID-19)
 ## Dependencies
 
