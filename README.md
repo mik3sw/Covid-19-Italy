@@ -13,7 +13,6 @@ pip install covid19it
 
 ```
 requests
-json
 ```
 
 ## How to use 
